@@ -4,7 +4,9 @@
   "description": "Projeto base e aulas para o curso básico de Playwright de Marcos Franco",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "playwright": "playwright test",
+    "playwright:ui": "playwright test --ui"	
   },
   "repository": {
     "type": "git",
